@@ -14,11 +14,11 @@
 </template>
 
 <script setup>
-import { navigateTo, useError } from "nuxt/app";
-
 const error = useError();
 const handleError = () => {
-  navigateTo("/");
+  clearError({
+    redirect: "/",
+  });
 };
 </script>
 
