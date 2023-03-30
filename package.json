@@ -16,9 +16,11 @@
     "nuxt": "^3.0.0"
   },
   "dependencies": {
+    "@nuxt/image-edge": "^1.0.0-28001428.0aa03b6",
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "@nuxtjs/tailwindcss": "^6.1.3",
     "@typescript-eslint/parser": "^5.57.0",
+    "@vueuse/nuxt": "^9.6.0",
     "eslint": "^8.37.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
